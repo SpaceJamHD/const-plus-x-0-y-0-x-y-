@@ -34,7 +34,8 @@ const obj = {
     },
     getAgeArrow: null,
     getAge() {
-        this.getAgeArrow = () => console.log(this);
+        // this.getAgeArrow = () => console.log(this);
+        setTimeout(() => console.log(this));
     },
 };
 
